@@ -20,7 +20,4 @@ class SampleController extends Controller
         $v = 'X-Header-Name:'.$value." ".$hoge;
         return $v;
     }
-    public function test3() {
-        return "test3";
-    }
 }
