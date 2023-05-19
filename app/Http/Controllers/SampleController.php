@@ -20,4 +20,8 @@ class SampleController extends Controller
         $v = 'X-Header-Name:'.$value." ".$hoge;
         return $v;
     }
+    // main_branch_2で追加
+    public function test4() {
+        return "test3";
+    }
 }
