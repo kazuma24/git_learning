@@ -32,4 +32,7 @@ class SampleController extends Controller
     public function test6() {
         return "test3";
     }
+    public function test7() {
+        return "test7";
+    }
 }
