@@ -23,4 +23,8 @@ class SampleController extends Controller
     public function test3() {
         return "test3";
     }
+    // main_branch_2で追加
+    public function test4() {
+        return "test3";
+    }
 }
