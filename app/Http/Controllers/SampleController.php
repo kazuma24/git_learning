@@ -38,4 +38,7 @@ class SampleController extends Controller
     public function test8() {
         return "test8";
     }
+    public function test9() {
+        return "test9";
+    }
 }
