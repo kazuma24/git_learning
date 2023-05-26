@@ -53,4 +53,8 @@ class Sample2Controller extends Controller
         $person = Person::simplePaginate(1);
         return $person;
     }
+
+    public function revert4() {
+        return "reverの練習4";
+    }
 }
