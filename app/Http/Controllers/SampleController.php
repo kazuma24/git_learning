@@ -45,4 +45,8 @@ class SampleController extends Controller
     public function revert1() {
         return "reverの練習1"
     }
+
+    public function revert2() {
+        return "reverの練習2";
+    }
 }
